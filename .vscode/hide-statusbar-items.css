@@ -1,0 +1,17 @@
+.statusbar-item[title*="Ln"],
+.statusbar-item[title*="Spaces"],
+.statusbar-item[title*="UTF-8"],
+.statusbar-item[title*="CRLF"],
+.statusbar-item[title*="JSON"],
+.statusbar-item[title*="Git"],
+.statusbar-item[title*="main"],
+.statusbar-item[title*="Go to Source Control"],
+.statusbar-item[title*="Select encoding"],
+.statusbar-item[title*="Select End of Line Sequence"],
+.statusbar-item[title*="Select Language Mode"],
+.statusbar-item[title*="Prettier"],
+.statusbar-item[title*="Sync Changes"],
+.statusbar-item[aria-label*="branch"],
+.statusbar-item[aria-label*="Git"] {
+    display: none !important;
+}
