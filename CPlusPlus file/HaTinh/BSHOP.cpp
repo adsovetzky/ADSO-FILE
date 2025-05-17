@@ -19,8 +19,7 @@ int main(){
     cin >> q;
 
     for(long long i = 0; i < q; i++){
-        long long x, y;
-        cin >> x >> y;
+        long long x, y; cin >> x >> y;
     }
 
 }
