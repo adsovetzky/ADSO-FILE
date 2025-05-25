@@ -9,7 +9,7 @@ int main(){
     vector<pair<long long, long long>> N;
     for(long long i = 0; i < n; i++){
         long long a, b;
-        cin >> a >> b;
+        cin >> a >> b; 
         N.push_back({a,b});
     }
     sort(N.begin(), N.end(), [](const pair<int, int>& a, const  pair<int, int>& b) {
@@ -20,6 +20,7 @@ int main(){
 
     for(long long i = 0; i < q; i++){
         long long x, y; cin >> x >> y;
+        cout << x << y;        
     }
-
+  return 0;
 }
